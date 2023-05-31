@@ -1,0 +1,62 @@
+/* Styling the body element
+        like body color and margin */
+        
+     @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+     @import url('https://fonts.googleapis.com/css2?family=Foldit&display=swap');
+        body {
+            background-color: #2c2e2d;
+            margin: 10%;
+        }
+ 
+        /* Styling the Title and giving
+        shadow to the title */
+        #title {
+            color: aliceblue;
+            text-align: center;
+            text-shadow: 5px 5px 10px black;
+            font-size: 15vh;
+            font-family: 'Foldit', cursive;
+        }
+ 
+        /* Setting width and display
+        type of image */
+        img {
+            
+            display: inline-block;
+            width: 100%;
+            
+        }
+ 
+        /* Setting font color and font
+        size of the image-caption */
+        #caption {
+            font-size: 2rem;
+            font-family: 'Dancing Script', cursive;
+            color: #e65b0b;
+            text-align: center;
+        }
+ 
+        /* Styling the content of the page like-
+        padding, font-size, font color etc.*/
+        div#tribute-data {
+            background-color: rgba(158, 160, 158, 0.25);
+            box-shadow: 15px 15px 15px #e65b0b;
+            font-family: 'Kalam', cursive;
+            padding: 25px 25px;
+            margin: 11px;
+            margin-top: 50px;
+            color: #e65b0b;
+            text-shadow: 2px 2px 5px black;
+            font-size: 25px;
+        }
+ 
+        /* Styling the title of the content */
+        h1.title-APJ {
+            font-size: 35px;
+            color: white;
+            text-align: center;
+            text-shadow: 5px 5px 10px black;
+            font-family: 'Raleway', sans-serif;
+        }
+ 
+        
